@@ -1,0 +1,6 @@
+command /report <offline player> <text>:
+  cooldown: 5 minutes
+  cooldown message: "&cYou have to wait 5 minutes before you can use this command again."
+  trigger:
+    send a "post" request to "WEBHOOK_URL" with the header "Content-Type: application/json" and the body "{""content"":""**Reported By:** %player% \n**Reported Player:** %arg-1% \n**Reason:** %arg-2%""}"
+    send "&aYou have succesfuly reported %arg-1%" to player
