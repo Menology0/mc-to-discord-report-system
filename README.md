@@ -1,5 +1,4 @@
 # What do I need to install?
-You need to have Skript and Reqn installed in your plugins folder.
 
 ## Skript
 https://github.com/SkriptLang/Skript/releases
