@@ -6,6 +6,8 @@ https://github.com/SkriptLang/Skript/releases
 ## Reqn
 https://github.com/btk5h/reqn/releases/tag/v1.2.1
 
+Make sure these 2 files are inside of your plugins folder
+
 # How to use?
 1. Create a webhook in your discord server in the channel where you want your reports to get posted.
 2. Import the **report.sk** into your scripts folder (located at: plugins -> skript -> scripts).
