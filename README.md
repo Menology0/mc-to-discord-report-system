@@ -18,4 +18,5 @@ To report someone in-game you can run `/report <player> <reason>` and it should 
 
 # Result
 This how it should look like after setting up everything correctly
+
 ![The final result](https://cdn.discordapp.com/attachments/1111401732266803322/1135268492883538020/image.png)
