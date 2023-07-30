@@ -1,10 +1,21 @@
+# What do I need to install?
+You need to have Skript and Reqn installed in your plugins folder.
+
+## Skript
+https://github.com/SkriptLang/Skript/releases
+
+## Reqn
+https://github.com/btk5h/reqn/releases/tag/v1.2.1
+
 # How to use?
-Import the **report.sk** into your scripts folder (located at: plugins -> skript -> scripts)
-Reload the skript by typing **/sk reload report.sk** in game or in the console using **sk reload report.sk**
+1. Create a webhook in your discord server in the channel where you want your reports to get posted.
+2. Import the **report.sk** into your scripts folder (located at: plugins -> skript -> scripts).
+3. Copy the webhook URL of the integration that you just made and replace `WEBHOOK_URL` with the copied url.
+4. Reload the skript by typing `/sk reload report.sk` in game or in the console using `sk reload report.sk`.
 
-# What changes do I make?
-Before the script is going to work, you will have to create a webhook in the channel you want to send the message to in your discord server.
-After you have made the webhook, you need to copy the webhook URL and replace `WEBHOOK_URL` with the webhook URL that you copied from your discord server.
+# How does it work?
+To report someone in-game you can run `/report <player> <reason>` and it should show up in the channel that you have linked with the script.
 
-## Result
+# Result
+This how it should look like after setting up everything correctly
 ![The final result](https://cdn.discordapp.com/attachments/1111401732266803322/1135268492883538020/image.png)
